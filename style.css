@@ -16,11 +16,10 @@ body {
 .header .header-link {
   font-family: "fantasy, cursive";
 }
-
 @media (max-width:768px) {
   .header { 
     text-align: center;
-}
+  }
 }
 .main {
   display: block;
@@ -100,7 +99,6 @@ li {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -140,12 +138,10 @@ li > input[type="text"] {
 ul li input[type=text] {
   display: none;
 }
-
 ul .edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
-
 ul .edit-mode label {
   display:none;
 }
